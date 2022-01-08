@@ -1,5 +1,6 @@
-const url =
-  "https://api.nasa.gov/planetary/apod?weEtlPIvbtWbuhQAeoH2N310ctI5Gct9ys7oGAs8";
+const url = "https://api.nasa.gov/planetary/apod?api_key=";
+
+const api_key = "weEtlPIvbtWbuhQAeoH2N310ctI5Gct9ys7oGAs8";
 
 const fetchNASAData = async () => {
   try {
