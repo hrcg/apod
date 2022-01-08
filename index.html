@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Astronomy Picture of the Day</title>
+  </head>
+  <body>
+    <main class="container" data-animate-in="up" data-animate-in-delay="200">
+      <h1>Astronomy Picture of the Day</h1>
+      <h2 id="title"></h2>
+      <p id="date"></p>
+      <div class="divider-wrap">
+        <div
+          style="
+            margin-top: 2.5px;
+            width: 100px;
+            height: 6px;
+            margin-bottom: 2.5px;
+            transform: scale(1, 1);
+          "
+          class="divider-small-border completed"
+        ></div>
+      </div>
+      <section class="text">
+        <img src="" id="picture" alt="Astronomy pic" />
+      </section>
+      <div class="divider-wrap">
+        <div
+          style="
+            margin-top: 2.5px;
+            width: 100px;
+            height: 6px;
+            margin-bottom: 2.5px;
+            transform: scale(1, 1);
+          "
+          class="divider-small-border completed"
+        ></div>
+      </div>
+      <p id="explanation"></p>
+    </main>
+
+    <script type="text/javascript" src="sec.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
